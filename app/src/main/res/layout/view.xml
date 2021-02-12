@@ -1,0 +1,57 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#74b9ff">
+
+    <TextView
+        android:id="@+id/input_method_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/amc_on"
+        android:textColor="#fff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <!--<SeekBar-->
+        <!--android:id="@+id/importSpeedBar"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="30dip"-->
+        <!--android:layout_marginBottom="56dp"-->
+        <!--android:max="100"-->
+        <!--android:paddingTop="15dip"-->
+        <!--android:progress="90"-->
+        <!--android:progressTint="#E84393"-->
+        <!--android:thumbTint="#007BFF"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/inputStop"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="160dp"-->
+        <!--android:layout_marginTop="28dp"-->
+        <!--android:text="暂停导入"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/input_method_textview" />-->
+    <!--<Button-->
+        <!--android:id="@+id/inputContinue"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="160dp"-->
+        <!--android:layout_marginTop="28dp"-->
+        <!--android:text="继续导入"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/inputStop" />-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
